@@ -3,74 +3,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ziyu Jin - Robotics Systems Portfolio</title>
+    <title>Ziyu Jin Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
 
-<header class="video-header">
-    <video autoplay muted loop id="header-video">
-        <source src="video/limo-arena-demo.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-    <div class="header-overlay">
-        <h1>Ziyu Jin</h1>
-        <p>Robotics Systems Student | Quality Engineer</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
+<header class="navbar">
+    <img src="images/sit-logo.png" alt="SIT Logo" class="sit-logo">
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('about')">About</button>
+        <button onclick="showSection('resume')">Resume</button>
+        <button onclick="showSection('projects')">Projects</button>
+        <button onclick="showSection('contact')">Contact</button>
+    </nav>
 </header>
 
-<section id="about" class="fade-in">
-    <h2>About Me</h2>
-    <p>I am a Robotics Systems student at Singapore Institute of Technology with experience in Quality Assurance Engineering and a passion for robotics, automation, and smart manufacturing.</p>
-</section>
-
-<section id="experience" class="fade-in">
-    <h2>Experience</h2>
-    <div class="timeline">
-        <div class="timeline-entry">
-            <img src="images/kinergy.png" alt="Kinergy Logo">
-            <div>
-                <h3>Assistant Quality Assurance Engineer</h3>
-                <p><strong>Kinergy Corporation Ltd.</strong> (2022 – Present)</p>
-            </div>
-        </div>
-        <div class="timeline-entry">
-            <img src="images/wizlogix.png" alt="Wizlogix Logo">
-            <div>
-                <h3>Supply Chain Intern</h3>
-                <p><strong>Wizlogix Pte Ltd</strong> (2021 – 2022)</p>
-            </div>
-        </div>
+<section id="home" class="section active">
+    <video autoplay muted loop id="header-video">
+        <source src="video/limo-header.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="header-text">
+        <h1>Ziyu Jin</h1>
+        <p>Robotics Systems Student | Quality Engineer</p>
     </div>
 </section>
 
-<section id="projects" class="fade-in">
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am Ziyu Jin, currently pursuing Robotics Systems at Singapore Institute of Technology. I specialize in PCB design, automation, and quality engineering.</p>
+</section>
+
+<section id="resume" class="section">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" target="_blank" class="button">Download Resume (PDF)</a></p>
+</section>
+
+<section id="projects" class="section">
     <h2>Projects</h2>
     <div class="projects-grid">
         <div class="project-card">
-            <img src="images/limopic.jpg" alt="LIMO Arena Project">
-            <h3>LIMO Arena Design</h3>
-            <p>Designed and built an arena inspired by Jewel Changi Airport for AgileX LIMO robot localisation, mapping, and navigation tasks.</p>
+            <img src="images/limo-arena.jpg" alt="LIMO Arena">
+            <h3>LIMO Arena Project</h3>
+            <p>Designed an arena for AgileX LIMO robot to demonstrate localisation and mapping.</p>
         </div>
     </div>
-    <a class="button" href="resume.pdf" target="_blank">Download Resume</a>
 </section>
 
-<section id="contact" class="fade-in">
+<section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:jinziyu100@gmail.com">jinziyu100@gmail.com</a></p>
+    <p>Email: jinziyu100@gmail.com</p>
     <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
 </section>
 
 <footer>
-    <p>© 2025 Ziyu Jin</p>
+    <p>© 2025 Ziyu Jin | Singapore Institute of Technology</p>
 </footer>
 
 </body>
