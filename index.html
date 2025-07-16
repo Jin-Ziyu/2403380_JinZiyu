@@ -3,63 +3,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ziyu Jin Portfolio</title>
+    <title>Ziyu Jin - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
 
-<header class="navbar">
-    <img src="images/sit-logo.png" alt="SIT Logo" class="sit-logo">
+<header>
     <nav>
-        <button onclick="showSection('home')">Home</button>
-        <button onclick="showSection('about')">About</button>
-        <button onclick="showSection('resume')">Resume</button>
-        <button onclick="showSection('projects')">Projects</button>
-        <button onclick="showSection('contact')">Contact</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
-<section id="home" class="section active">
-    <video autoplay muted loop id="header-video">
-        <source src="video/limo-header.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-    <div class="header-text">
+<main>
+    <section id="home" class="centered">
         <h1>Ziyu Jin</h1>
         <p>Robotics Systems Student | Quality Engineer</p>
-    </div>
-</section>
+        <a href="#contact" class="button">Contact Me</a>
+    </section>
 
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I am Ziyu Jin, currently pursuing Robotics Systems at Singapore Institute of Technology. I specialize in PCB design, automation, and quality engineering.</p>
-</section>
+    <section id="about">
+        <h2>About</h2>
+        <p>I am Ziyu Jin, a Robotics Systems student at Singapore Institute of Technology. My professional experience in quality engineering complements my passion for robotics, automation, and electronics.</p>
+    </section>
 
-<section id="resume" class="section">
-    <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank" class="button">Download Resume (PDF)</a></p>
-</section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Kinergy Corporation Ltd.</strong><br>Assistant Quality Assurance Engineer (2022 – Present)</li>
+            <li><strong>Wizlogix Pte Ltd</strong><br>Supply Chain Intern (2021 – 2022)</li>
+        </ul>
+    </section>
 
-<section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="images/limo-arena.jpg" alt="LIMO Arena">
-            <h3>LIMO Arena Project</h3>
-            <p>Designed an arena for AgileX LIMO robot to demonstrate localisation and mapping.</p>
-        </div>
-    </div>
-</section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>LIMO Arena Design Project</strong><br>Arena design inspired by Jewel Changi Airport to demonstrate AgileX LIMO robot navigation and mapping.</li>
+        </ul>
+        <a class="button" href="resume.pdf" target="_blank">Download Resume (PDF)</a>
+    </section>
 
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: jinziyu100@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-</section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:jinziyu100@gmail.com">jinziyu100@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    </section>
+</main>
 
 <footer>
-    <p>© 2025 Ziyu Jin | Singapore Institute of Technology</p>
+    <p>© 2025 Ziyu Jin</p>
 </footer>
 
 </body>
