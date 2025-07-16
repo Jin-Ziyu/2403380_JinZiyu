@@ -1,31 +1,24 @@
-# Ziyu Jin – Robotics & Systems Engineering Portfolio 🌐🤖
 
-Welcome to my personal portfolio website, showcasing my background in robotics systems, electronics, quality assurance, and hands-on engineering projects.
+# Ziyu Jin Portfolio Website
 
-## 🔧 Technologies Used
-- HTML5 & CSS3 (Responsive Design)
-- JavaScript (Animations & Scroll Effects)
-- GitHub Pages (Hosting)
+A professional personal portfolio website featuring:
+- Video header (LIMO project video).
+- Section-based navigation (Home, About, Resume, Projects, Contact).
+- SIT logo integrated into navigation bar.
+- Fully responsive design.
 
-## 🧠 About Me
-I am a Robotics Systems student at the Singapore Institute of Technology and currently working as an Assistant Quality Assurance Engineer at Kinergy Corporation Ltd. My interests lie in systems design, embedded electronics, automation, and smart manufacturing.
+## Features
+- Clicking a menu button displays only that section.
+- Video header background using LIMO project video.
+- Resume download button.
 
-## 🚀 Key Project
-### Arena Design & Creation (SEP Project)
-- **Theme**: Changi Airport – Canopy Park  
-- **Objective**: Designed and built a physical arena for the AgileX LIMO robot to perform localisation, mapping, path planning, navigation, and obstacle avoidance.  
-- **Role**: Arena conceptualisation, design layout, validation of navigability, and fabrication oversight.  
-- **Tools**: Physical prototyping, team collaboration under budget and time constraints.
+## Installation & Usage
+1. Upload all files to your GitHub repository.
+2. Enable GitHub Pages in repository settings.
+3. Place your LIMO project video as `/video/limo-header.mp4`.
+4. Add your SIT logo as `/images/sit-logo.png`.
 
-## 📁 View Website
-🔗 [Click here to visit the live portfolio](https://yourusername.github.io/ziyu-portfolio/)  
-(Replace `yourusername` with your actual GitHub username.)
-
-## 📫 Contact
-- Email: jinziyu100@gmail.com
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-
----
-
-Feel free to explore the code, connect with me, or give a ⭐ if you like the project!
+## Live URL
+https://jin-ziyu.github.io/2403380_JinZiyu/
+## Author
+Ziyu Jin | Robotics Systems Student | Singapore Institute of Technology
