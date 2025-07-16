@@ -3,90 +3,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ziyu Jin - Portfolio</title>
+    <title>Ziyu Jin - Robotics Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
-<header class="hero">
-    <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
-    <h1>Ziyu Jin</h1>
-    <p>Robotics Systems Student | Quality Engineer | Automation Enthusiast</p>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<header class="video-header">
+    <video autoplay muted loop id="header-video">
+        <source src="video/limo-header.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="header-overlay">
+        <h1>Ziyu Jin</h1>
+        <p>Robotics Systems Student | Quality Engineer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
 </header>
 
-<section id="about">
+<section id="about" class="fade-in">
     <h2>About Me</h2>
-    <p>I am currently pursuing a Bachelor's degree in Robotics Systems at Singapore Institute of Technology. With professional experience as a Quality Assurance Engineer, my skills include PCB design, structured programming, and system integration. I am passionate about robotics, automation, and smart manufacturing technologies.</p>
+    <p>I am a Robotics Systems student at Singapore Institute of Technology with experience in Quality Assurance Engineering and a passion for robotics, automation, and smart manufacturing.</p>
 </section>
 
-<section id="education">
-    <h2>Education</h2>
-    <div class="timeline-entry">
-        <img src="images/sit-logo.png" alt="SIT Logo">
-        <div>
-            <h3>Singapore Institute of Technology</h3>
-            <p><strong>Bachelor’s Degree in Robotics Systems</strong> (2024 – Present)</p>
-            <p>Specializing in PCB Design, Circuit Analysis, Advanced Electronics, and Smart Manufacturing Systems.</p>
-        </div>
-    </div>
-    <div class="timeline-entry">
-        <img src="images/profile.jpg" alt="Diploma Placeholder">
-        <div>
-            <h3>Temasek Polytechnic</h3>
-            <p><strong>Diploma in Electronics</strong> (2019 – 2022)</p>
-            <p>Focused on Circuit Design, Communications, and Smart Manufacturing Technologies.</p>
-        </div>
-    </div>
-</section>
-
-<section id="experience">
+<section id="experience" class="fade-in">
     <h2>Experience</h2>
-    <div class="timeline-entry">
-        <img src="images/kinergy.png" alt="Kinergy Logo">
-        <div>
-            <h3>Assistant Quality Assurance Engineer</h3>
-            <p><strong>Kinergy Corporation Ltd.</strong> (May 2022 – Present)</p>
-            <p>Responsible for incoming quality inspection, reporting, and quality process improvement for electronic components.</p>
+    <div class="timeline">
+        <div class="timeline-entry">
+            <img src="images/kinergy.png" alt="Kinergy Logo">
+            <div>
+                <h3>Assistant Quality Assurance Engineer</h3>
+                <p><strong>Kinergy Corporation Ltd.</strong> (2022 – Present)</p>
+            </div>
         </div>
-    </div>
-    <div class="timeline-entry">
-        <img src="images/wizlogix.png" alt="Wizlogix Logo">
-        <div>
-            <h3>Supply Chain Intern</h3>
-            <p><strong>Wizlogix Pte Ltd</strong> (Oct 2021 – Mar 2022)</p>
-            <p>Managed ERP systems, procurement orders, and supply chain process optimization.</p>
+        <div class="timeline-entry">
+            <img src="images/wizlogix.png" alt="Wizlogix Logo">
+            <div>
+                <h3>Supply Chain Intern</h3>
+                <p><strong>Wizlogix Pte Ltd</strong> (2021 – 2022)</p>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="projects">
+<section id="projects" class="fade-in">
     <h2>Projects</h2>
     <div class="projects-grid">
         <div class="project-card">
             <img src="images/limo-arena.jpg" alt="LIMO Arena Project">
-            <h3>LIMO Arena Design Project</h3>
-            <p>Designed an arena inspired by Canopy Park at Jewel Changi Airport for AgileX LIMO robot tasks including localisation, mapping, and obstacle avoidance.</p>
+            <h3>LIMO Arena Design</h3>
+            <p>Designed and built an arena inspired by Jewel Changi Airport for AgileX LIMO robot localisation, mapping, and navigation tasks.</p>
         </div>
     </div>
     <a class="button" href="resume.pdf" target="_blank">Download Resume</a>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
+<section id="contact" class="fade-in">
+    <h2>Contact</h2>
     <p>Email: <a href="mailto:jinziyu100@gmail.com">jinziyu100@gmail.com</a></p>
-    <p>Phone: +65 9665 3059</p>
     <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
 </section>
 
 <footer>
-    <p>© 2025 Ziyu Jin | Singapore Institute of Technology</p>
+    <p>© 2025 Ziyu Jin</p>
 </footer>
 
 </body>
