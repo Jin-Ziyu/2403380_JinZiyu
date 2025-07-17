@@ -78,3 +78,22 @@ footer {
     background: #f9f9f9;
     border-top: 1px solid #eee;
 }
+.quick-links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.quick-links .button {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.quick-links .button:hover {
+    background: #005f99;
+}
