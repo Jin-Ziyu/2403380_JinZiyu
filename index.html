@@ -1,27 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home | Jin Ziyu | Robotics Systems Portfolio</title>
+    <title>Ziyu Jin | Robotics Systems Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
 <header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html">Resume</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<section class="video-banner">
+<!-- HOME -->
+<section id="home" class="video-banner">
     <video autoplay muted loop>
         <source src="video/limo-arena-demo.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
     </video>
     <div class="banner-text">
         <img src="images/sit-logo.png" alt="SIT Logo" class="sit-logo">
@@ -34,9 +34,59 @@
     <img src="images/profile.png" alt="Ziyu Jin Profile Picture" class="profile-picture">
 </section>
 
-<main>
-    <title>Robotics Systems Student at Singapore Institute of Technology</title>
-</main>
+<!-- ABOUT -->
+<section id="about">
+    <main>
+        <h2>About Me</h2>
+        <p>I am Jin Ziyu, a Robotics Systems student at the Singapore Institute of Technology, with a strong foundation in electronics, automation, and robotics.</p>
+        <p>As a Quality Assurance Engineer at Kinergy Corporation, I gained experience in equipment inspections and quality systems. My internship at Wizlogix gave me insight into ERP and supply chain optimization.</p>
+        <p>My skills include electronics, robotics, process improvement, and collaboration. I am open to new opportunities in robotics, automation, and quality engineering.</p>
+    </main>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="resume-banner">
+    <img src="images/sit-logo.png" alt="SIT Logo" class="sit-logo-banner">
+    <h2>My Resume</h2>
+</section>
+<section>
+    <main>
+        <p>Below is a preview of my resume. You can also download it as a PDF.</p>
+        <div class="resume-preview">
+            <embed src="resume.pdf" type="application/pdf" width="100%" height="600px">
+        </div>
+        <div class="quick-links">
+            <a href="resume.pdf" target="_blank" class="button">📄 Download My Resume (PDF)</a>
+        </div>
+    </main>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <main>
+        <h2>Projects</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/limo-arena.jpg" alt="LIMO Arena Project">
+                <p>LIMO Arena Design Project</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/project2.jpg" alt="Another Project">
+                <p>Another Robotics Project</p>
+            </div>
+        </div>
+    </main>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <main>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:jinziyu100@gmail.com">jinziyu100@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Jin-Ziyu" target="_blank">github.com/Jin-Ziyu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jin-ziyu/" target="_blank">linkedin.com/in/jin-ziyu</a></p>
+    </main>
+</section>
 
 <footer>© 2025 Ziyu Jin</footer>
 
