@@ -97,3 +97,26 @@ footer {
 .quick-links .button:hover {
     background: #005f99;
 }
+/* SIT LOGO BANNER FOR RESUME PAGE */
+.resume-banner {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.sit-logo-banner {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.resume-preview {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.resume-preview img {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
